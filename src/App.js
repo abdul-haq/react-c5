@@ -10,6 +10,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
+      <h1>Context Api and use Reducer</h1>
+      <hr></hr>
       <ValueContext.Provider value={React.useState(50)}>
       <Parent></Parent>
       </ValueContext.Provider>
